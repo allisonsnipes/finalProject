@@ -1,12 +1,12 @@
-import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import React from 'react'
+import './style.css'
 
-function footer() {
-	return (
-		<footer className="footer">
-			<span> Game Friend 2019</span>
-		</footer>
-	);
+function Footer () {
+  return (
+    <footer className='footer'>
+      <span>Game Meet 2017</span>
+    </footer>
+  )
 }
 
-export default footer;
+export default Footer
