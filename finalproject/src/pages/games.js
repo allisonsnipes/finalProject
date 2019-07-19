@@ -1,26 +1,24 @@
-import React from 'react'
-import Footer from '../components/footer'
-// import Jumbotron from '../components/jumbotron'
-import Navbar from '../components/navbar'
+import React from 'react';
+import Footer from '../components/Footer/index';
+import Jumbotron from '../components/Jumbotron/index';
+import Navbar from '../components/Navbar/index';
 // import Pictures from '../components/pictures'
-import Wrapper from '../components/wrapper'
+import Wrapper from '../components/Wrapper/index';
 // import createAccountModal from '../components/createAccountModal'
 // import LoginModal from '../components/loginModal'
-// import Wrapper from '../components/wrapper'
 // import Form from '../components/form'
-// import Col from '../components/col'
-// import Row from '../components/row'
+import Col from '../components/Col/index';
+import Row from '../components/Row/index';
+import Container from '../components/Container/index';
 
-function UserHome () {
-  return (
-    <div>
-      <Navbar />
-      <Wrapper>
-        TEST
-      </Wrapper>
-      <Footer />
-    </div>
-  )
+function UserHome() {
+	return (
+		<div>
+			<Navbar />
+			<Wrapper>TEST</Wrapper>
+			<Footer />
+		</div>
+	);
 }
 
-export default UserHome
+export default UserHome;
