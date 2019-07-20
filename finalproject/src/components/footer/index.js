@@ -3,9 +3,9 @@ import React from 'react'
 
 function Footer () {
   return (
-    <footer className='footer'>
+    <Footer className='footer'>
       <span>Game Meet 2017</span>
-    </footer>
+    </Footer>
   )
 }
 
